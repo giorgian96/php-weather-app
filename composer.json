@@ -1,0 +1,21 @@
+{
+    "name": "giorgian/phpweatherapp",
+    "description": "A simple CLI weather app",
+    "require": {
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpweatherapp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Giorgian Valentin Robescu",
+            "email": "robescu.george96@gmail.com"
+        }
+    ]
+}
